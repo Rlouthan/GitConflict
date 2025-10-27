@@ -2,10 +2,10 @@
 using namespace std;
 
 void say(string s);
+int add(int a, int b);
 
 int main()
 {
-
     cout << "reading" << endl;
     cout << "Hello World" << endl;
 
@@ -14,4 +14,9 @@ int main()
 void say(string s)
 {
     cout << s << endl;
+}
+int add(int a, int b)
+{
+    return a + b;
+
 }
